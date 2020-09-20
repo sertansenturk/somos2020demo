@@ -4,18 +4,20 @@ TODO: Description
 
 ## Running the demo
 
-The demo Jupyter notebook, [demo.ipynb](demo.ipynb), could be run inside Docker. In terminal, first build an image from the `Dockerfile` in the repo:
+The demo Jupyter notebook, [demo.ipynb](demo.ipynb), could be run inside Docker. Docker is a lightweight service, which use OS-level virtualization to deliver software in "containers." Docker allows consistency and convenience on running software with reliable behaviour. Please refer to the [documentation](https://docs.docker.com/install/) for installing Docker.
+
+After you install Docker, you build the *docker-compose* stack in terminal by running:
 
 ```bash
-docker build . -t sertansenturk/somos2020demo:latest
+docker-compose build
 ```
 
-The image is based on [Jupyter scipy docker stack](https://hub.docker.com/r/jupyter/scipy-notebook) and installs tomato and it's dependencies. Note that the image is 5.5GB in size and the build might take some (5 to 30+ minutes) depending on your internet connection.
+The stack contains an image based on the [official Jupyter image](https://hub.docker.com/r/jupyter/scipy-notebook), which also installs tomato and its dependencies. Note that the image is 5.5GB in size and the build might take some (5 to 30+ minutes) depending on your internet connection.
 
-Once the image is built, you can start a container by:
+Once the stack is built, you can start it by:
 
 ```bash
-docker run -p 8888:8888 -it -v "$PWD":/home/jovyan/work sertansenturk/somos2020demo:latest
+docker-compose up
 ```
 
-Once the container is ready, you will see a URL with a token (similar to http://127.0.0.1:8888/?token=8d852...) printed on the terminal. Click the url or copy & paste it to your browser to access Jupyter interface and run the notebook.
+Once ready, you will see a URL with a token (similar to http://127.0.0.1:8888/?token=8d852...) printed on the terminal. Click the url or copy & paste it to your browser to access Jupyter interface and run the notebook.
