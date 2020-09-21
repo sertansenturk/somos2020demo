@@ -16,7 +16,7 @@ cd /path/to/somos2020demo
 docker-compose build
 ```
 
-Please do not forget to enter the correct path of the repository above. The stack pre-installs tomato and its dependencies in an image based on the [official Jupyter image](https://hub.docker.com/r/jupyter/scipy-notebook). Note that the image is 5.5GB in size and the build might take ample amount of time in the first run, depending on your internet connection.
+Please do not forget to enter the correct path of the repository above. The stack pre-installs tomato and its dependencies in an image based on an [official Jupyter image](https://hub.docker.com/r/jupyter/scipy-notebook). Note that the image is 5.5GB in size and the first build might take a long time (2 to 30+ minutes), depending on your hardware specifications and internet connection.
 
 Once the stack is built, you can start it by:
 
