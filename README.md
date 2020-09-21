@@ -45,10 +45,10 @@ We would like to thank [Harold Hagopian](https://en.wikipedia.org/wiki/Harold_Ha
 
 ## 8. References
 
-_This repo has been created for:_
+This repo has been created for:
 
   **[1]** Ganguli, K. K., Şentürk, S., Eisenberg, A., and Guedes, C. (2020). *Computational approaches to aid ethnographic research on Maqam melodies* [abstract]. In 1st Symposium of the International Council for Traditional Music Study Group on Sound, Movement, and the Sciences (SoMoS 2020). Stockholm, Norway
 
-_The toolbox has been realized as part of the thesis:_
+The toolbox has been realized as part of the thesis:
 
   **[2]** Şentürk, S. (2016). *Computational analysis of audio recordings and music scores for the description and discovery of Ottoman-Turkish makam music.* Ph.D. thesis, Universitat Pompeu Fabra, Barcelona, Spain.  
