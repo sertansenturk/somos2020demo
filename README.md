@@ -1,6 +1,6 @@
 # SoMoS 2020 demo
 
-This repository showcases [Turkish-Ottoman Makam (M)usic Analysis TOolbox (tomato)](https://github.com/sertansenturk/tomato). We demonstrate:
+As part of the presentation in SoMos 2020 [1], this repository showcases [Turkish-Ottoman Makam (M)usic Analysis TOolbox (tomato)](https://github.com/sertansenturk/tomato). We demonstrate:
 
 1. how to install `tomato` in modern systems using Docker
 2. how to use `tomato` to analyze makam/maqam music recordings
@@ -33,3 +33,22 @@ You can access the demo by clicking on the notebook file called [demo.ipynb](dem
 - Extracting features one-by-one from a short segment of Egyptian music
 - Extracting features with a single call on a Turkish makam music recording
 - Extending features by applying a score-informed analysis of the same Turkish makam music recording
+
+## 7. Authors
+
+Sertan Şentürk
+contact@sertansenturk.com
+
+## 8. Acknowledgments
+
+We would like to thank [Harold Hagopian](https://en.wikipedia.org/wiki/Harold_Hagopian), the founder of [Traditional Crossroads](http://traditionalcrossroads.com/About-Us), for allowing us to use Tanburi Cemil Bey's performance of [Uşşak Sazsemaisi](http://musicbrainz.org/recording/f970f1e0-0be9-4914-8302-709a0eac088e) in our demos.
+
+## 8. References
+
+_This repo has been created for:_
+
+  [1] Ganguli, K. K., Şentürk, S., Eisenberg, A., and Guedes, C. (2020). *Computational approaches to aid ethnographic research on Maqam melodies* [abstract]. In 1st Symposium of the International Council for Traditional Music Study Group on Sound, Movement, and the Sciences (SoMoS 2020). Stockholm, Norway
+
+_The toolbox has been realized as part of the thesis:_
+
+  [2] Şentürk, S. (2016). *Computational analysis of audio recordings and music scores for the description and discovery of Ottoman-Turkish makam music.* Ph.D. thesis, Universitat Pompeu Fabra, Barcelona, Spain.  
