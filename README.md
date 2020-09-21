@@ -3,7 +3,7 @@
 As part of the presentation in SoMos 2020 **[1]**, this repository showcases [Turkish-Ottoman Makam (M)usic Analysis TOolbox (tomato)](https://github.com/sertansenturk/tomato). We demonstrate:
 
 1. how to install `tomato` in modern systems using Docker
-2. how to use `tomato` to analyze makam/maqam music recordings
+2. examples of how to analyze makam/maqam music music using `tomato`
 
 ## Running the demo
 
