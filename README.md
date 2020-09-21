@@ -39,10 +39,6 @@ You can access the demo by clicking on the notebook file called [demo.ipynb](dem
 Sertan Şentürk
 contact@sertansenturk.com
 
-## 8. Acknowledgments
-
-We would like to thank [Harold Hagopian](https://en.wikipedia.org/wiki/Harold_Hagopian), the founder of [Traditional Crossroads](http://traditionalcrossroads.com/About-Us), for allowing us to use Tanburi Cemil Bey's performance of [Uşşak Sazsemaisi](http://musicbrainz.org/recording/f970f1e0-0be9-4914-8302-709a0eac088e) in our demos.
-
 ## 8. References
 
 This repo has been created for:
