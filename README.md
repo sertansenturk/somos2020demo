@@ -34,12 +34,12 @@ You can access the demo by clicking on the notebook file called [demo.ipynb](dem
 - Extracting features with a single call on a Turkish makam music recording
 - Extending features by applying a score-informed analysis of the same Turkish makam music recording
 
-## 7. Authors
+## Authors
 
 Sertan Şentürk
 contact@sertansenturk.com
 
-## 8. References
+## References
 
 This repo has been created for:
 
