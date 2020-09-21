@@ -24,4 +24,12 @@ Once the stack is built, you can start it by:
 docker-compose up
 ```
 
-After a few seconds, you will see a URL with a token (similar to http://127.0.0.1:8888/?token=8d852...) printed on the terminal. Click the url or copy & paste it to your browser to access Jupyter interface and run the notebook. Then click on the notebook file called [demo.ipynb](demo.ipynb) to access the demo.
+After a few seconds, you will see a URL with a token (similar to http://127.0.0.1:8888/?token=8d852...) printed on the terminal. Click the url or copy & paste it to your browser to access Jupyter interface and run the notebook.
+
+## Demo overview
+
+You can access the demo by clicking on the notebook file called [demo.ipynb](demo.ipynb) in the Jupyter interface. In the demo notebook, we show how to use tomato in three different scenarios:
+
+- Extracting features one-by-one from a short segment of Egyptian music
+- Extracting features with a single call on a Turkish makam music recording
+- Extending features by applying a score-informed analysis of the same Turkish makam music recording
